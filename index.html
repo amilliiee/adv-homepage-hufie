@@ -8,136 +8,180 @@
 </head>
 <body>
   <header>
-    <img src="./img/hufie-logo.svg" alt="hufie logo">
-    <ul class="nav">
-      <li><a href="#" id="login">Log In</a></li>
-      <li><a href="#" id="signup">Sign Up</a></li>
-    </ul>
+    <div class="header-wrapper">
+      <img src="./img/hufie-logo.svg">
+      <div class="header-nav">
+        <a href="#" class="header-link" id="login">Log In</a>
+        <a href="#" class="header-link" id="signup">Sign Up</a>
+      </div>
+    </div>
   </header>
 
-  <div class="content-wrapper">
+  <div class="body-content">
     <div class="hero">
-      <div class="hero-text">
-        <div id="vers">
-          <img src="./img/opacity.svg" alt="">
-          <p>version 4.0.1</p>
+      <div id="version">
+        <div id="opacity">
+          <img src="./img/opacity.svg">
         </div>
-        <h1>Where data and creativity come together.</h1>
-        <p>The fastest way to build and deploy websites with reusable components.</p>
-        <ul class="btns">
-          <li><a href="#" id="getstarted">GET STARTED</a></li>
-          <li><a href="#" id="viewdemo">VIEW DEMO</a></li>
-        </ul>
+        version 4.0.1
+      </div>
+      <h1>Where data and creativity come together.</h1>
+      <p>The fastest way to build and deploy websites with reusable components.</p>
+      <div id="hero-buttons">
+        <div id="get-started">
+          <a href="#">Get started</a>
+        </div>
+        <div id="view-demo">
+          <a href="#">View demo</a>
+        </div>
       </div>
     </div>
 
     <div class="process">
-      <div class="process-text">
-        <h2>This is a new creative process</h2>
+      <div id="process-text">
+        <h2>This is new creative process</h2>
         <p>Quisque eleifend velit vel erat fringilla interdum</p>
       </div>
-      <div class="cards">
-        <div class="card components">
-          <img src="https://em-content.zobj.net/source/apple/391/artist-palette_1f3a8.png">
-          <span>200+ cloneable components</span>
+      <div id="cards">
+        <!-- components -->
+        <div class="components card">
+          <div id="process-icon">
+            <img src="https://em-content.zobj.net/source/apple/391/artist-palette_1f3a8.png">
+          </div>
+          <h4>200+ cloneable components</h4>
           <p>Suspendisse id tortor venenatis, blandit lacus ut, efficitur diam. Proin vulputate nisl vel sem consequat euismod.</p>
         </div>
-        <div class="card projects">
-          <img src="https://em-content.zobj.net/source/apple/391/direct-hit_1f3af.png">
-          <span>Complete style guild for projects</span>
+        <!-- style guide -->
+        <div class="style-guide card">
+          <div id="process-icon">
+            <img src="https://em-content.zobj.net/source/apple/391/direct-hit_1f3af.png">
+          </div>
+          <h4>Complete style guide for projects</h4>
           <p>Suspendisse id tortor venenatis, blandit lacus ut, efficitur diam. Proin vulputate nisl vel sem consequat euismod.</p>
         </div>
-        <div class="card landing">
-          <img src="https://em-content.zobj.net/source/apple/391/cherry-blossom_1f338.png">
-          <span>Modern & beautiful landing page</span>
+        <!-- landing -->
+        <div class="landing card">
+          <div id="process-icon">
+            <img src="https://em-content.zobj.net/source/apple/391/cherry-blossom_1f338.png">
+          </div>
+          <h4>Modern & beautiful landing page</h4>
           <p>Suspendisse id tortor venenatis, blandit lacus ut, efficitur diam. Proin vulputate nisl vel sem consequat euismod.</p>
         </div>
-        <div class="card building">
-          <img src="https://em-content.zobj.net/source/apple/391/gear_2699-fe0f.png">
-          <span>Built in multiple ways</span>
+        <!-- build -->
+        <div class="build card">
+          <div id="process-icon">
+            <img src="https://em-content.zobj.net/source/apple/391/gear_2699-fe0f.png">
+          </div>
+          <h4>Built in multiple ways</h4>
           <p>Suspendisse id tortor venenatis, blandit lacus ut, efficitur diam. Proin vulputate nisl vel sem consequat euismod.</p>
         </div>
       </div>
     </div>
 
-    <div class="examples">
-      <div class="ex ex1">
-        <img src="./img/image-1.png">
-        <div class="notes" id="components">
-          <img src="https://em-content.zobj.net/source/apple/391/artist-palette_1f3a8.png" class="icon">
-          <h3>200+ cloneable components</h3>
-          <p>From navigation bars to modals, buttons to forms, out library has everything you need to jumpstart your developnent process.</p>
-          <ul>
-            <li>
-              <img src="./img/check_circle.svg" id="check">Rapidly build your own design system
-            </li>
-            <li>
-              <img src="./img/check_circle.svg" id="check">Maintain consistance across your website
-            </li>
-            <li>
-              <img src="./img/check_circle.svg" id="check">Save hours in production time
-            </li>
-          </ul>
+    <div class="bullets">
+      <!-- components -->
+      <div class="components bullet">
+        <div class="point-pic" id="comp-left">
+          <img src="./img/image-1.png">
+        </div>
+        <div class="points" id="comp-right">
+          <div id="point-icon">
+            <img src="https://em-content.zobj.net/source/apple/391/artist-palette_1f3a8.png">
+          </div>
+          <h2>200+ cloneable components</h2>
+          <p>From navigation bars to modals, buttons to forms, our library has everything you need to jumpstart your development process.</p>
+          <div class="claims">
+            <div class="claim">
+              <img src="./img/check_circle.svg">
+              Rapidly build your own design system
+            </div>
+            <div class="claim">
+              <img src="./img/check_circle.svg">
+              Maintain consistency across your website
+            </div>
+            <div class="claim">
+              <img src="./img/check_circle.svg">
+              Save hours in production time
+            </div>
+          </div>
         </div>
       </div>
-      <div class="ex ex2">
-        <div class="notes" id="projects">
-          <img src="https://em-content.zobj.net/source/apple/391/direct-hit_1f3af.png" class="icon">
-          <h3>Complete style guild for projects</h3>
+      <!-- style guide -->
+      <div class="style-guide bullet">
+        <div class="points" id="style-left">
+          <div id="point-icon">
+            <img src="https://em-content.zobj.net/source/apple/391/direct-hit_1f3af.png">
+          </div>
+          <h2>Complete style guild for projects</h2>
           <p>A comprehensive style guide can make all the difference in creating a cohesive and effective design.</p>
-          <ul>
-            <li>
-              <img src="./img/check_circle.svg" id="check">Determine the key elements of your brand
-            </li>
-            <li>
-              <img src="./img/check_circle.svg" id="check">Include guidelines for layout
-            </li>
-            <li>
-              <img src="./img/check_circle.svg" id="check">Share your style guide with your team
-            </li>
-          </ul>
+          <div class="claims">
+            <div class="claim">
+              <img src="./img/check_circle.svg">
+              Determine the key elements of your brand
+            </div>
+            <div class="claim">
+              <img src="./img/check_circle.svg">
+              Include guidelines for layout
+            </div>
+            <div class="claim">
+              <img src="./img/check_circle.svg">
+              Share your style guide with your team
+            </div>
+          </div>
         </div>
-        <img src="./img/image-2.png">
+        <div class="point-pic" id="style-right">
+          <img src="./img/image-2.png">
+        </div>
       </div>
-      <div class="ex ex3">
-        <img src="./img/image-3.png">
-        <div class="notes" id="buildings">
-          <img src="https://em-content.zobj.net/source/apple/391/gear_2699-fe0f.png" class="icon">
-          <h3>Built in multiple ways</h3>
+      <!-- build -->
+      <div class="build bullet">
+        <div class="point-pic" id="build-left">
+          <img src="./img/image-3.png">
+        </div>
+        <div class="points" id="build-right">
+          <div id="point-icon">
+            <img src="https://em-content.zobj.net/source/apple/391/gear_2699-fe0f.png">
+          </div>
+          <h2>Built in multiple ways</h2>
           <p>Our approach to content creation allows you to build your content in multiple ways, maximizing your efficiency and output.</p>
-          <ul>
-            <li>
-              <img src="./img/check_circle.svg" id="check">Identify the core message of your content
-            </li>
-            <li>
-              <img src="./img/check_circle.svg" id="check">Create a content calendar
-            </li>
-            <li>
-              <img src="./img/check_circle.svg" id="check">Repurpose your content by adapting
-            </li>
-          </ul>
+          <div class="claims">
+            <div class="claim">
+              <img src="./img/check_circle.svg">
+              Identify the core message of your content
+            </div>
+            <div class="claim">
+              <img src="./img/check_circle.svg">
+              Create a content calendar
+            </div>
+            <div class="claim">
+              <img src="./img/check_circle.svg">
+              Repurpose your content by adapting
+            </div>
+          </div>
         </div>
       </div>
     </div>
 
     <footer>
-      <div class="footer-deco">
-        <h2>Always with the legendary customer <span>experience.</span></h2>
-      </div>
-      <div class="footer-links">
-        <ul class="broad">
-          <li><a href="#">Overview</a></li>
-          <li><a href="#">Glossary</a></li>
-          <li><a href="#">FAQ</a></li>
-          <li><a href="#">Style Guide</a></li>
-        </ul>
-        <ul class="specific">
-          <li><a href="#">Colours</a></li>
-          <li><a href="#">Typography</a></li>
-          <li><a href="#">Shadow</a></li>
-          <li><a href="#">Avatar</a></li>
-          <li><a href="#">Buttons</a></li>
-        </ul>
+      <div class="footer-wrapper">
+        <div class="tag">
+          Always with the legendary customer <span>experience.</span>
+        </div>
+        <div class="footer-links">
+          <ul class="general">
+            <li><a href="#">Overview</a></li>
+            <li><a href="#">Glossary</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Style Guide</a></li>
+          </ul>
+          <ul class="specific">
+            <li><a href="#">Colours</a></li>
+            <li><a href="#">Typography</a></li>
+            <li><a href="#">Shadow</a></li>
+            <li><a href="#">Avatar</a></li>
+            <li><a href="#">Buttons</a></li>
+          </ul>
+        </div>
       </div>
       <img src="./img/hufie-logo-footer.svg">
     </footer>
